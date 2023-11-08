@@ -1,0 +1,28 @@
+.wrapper{
+  min-width: 1200px;
+}
+.blind{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  margin: -1px;
+}
+.inner{
+  width: 1152px;
+  margin: 0 auto;
+}
+
+
+/* 스프라이트 이미지 */
+.sc-visual .control-area .btn{
+  background-image: url(../images/icon_set_common.png);
+  background-repeat: no-repeat;
+}
+
+/* 스프라이트 이미지 */
+.sc-visual .group-tab button::before{
+background-image: url(../images/icon_main.png);
+background-repeat: no-repeat;
+}
